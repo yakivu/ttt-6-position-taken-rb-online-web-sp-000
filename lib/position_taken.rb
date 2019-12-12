@@ -22,7 +22,7 @@ def
 
     expect(position_taken?(board, index)).to be(false)
   end
-
+def
   it 'returns false if the board has nil in the index' do
     board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
     index = 0
@@ -32,7 +32,7 @@ def
     index = 1
     expect(position_taken?(board, index)).to be(false)
   end
-
+def
   it 'returns true if the board has a value of "X" or "O" in the index' do
     board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 
@@ -42,4 +42,3 @@ def
     index = 8
     expect(position_taken?(board, index)).to be(true)
   end
-end
