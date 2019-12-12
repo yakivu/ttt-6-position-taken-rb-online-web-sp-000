@@ -1,5 +1,5 @@
 # code your #position_taken? method here!
-
+array[index_number]
 def
 
     board = []
@@ -14,7 +14,8 @@ def
 
     
   end
-def
+def if/else
+  ||
    
     board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
     index = 0
