@@ -7,15 +7,15 @@ def
 
     
   end
-def
+def 
  
     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     index = 0
 
     
-  end
-def if/else
-  ||
+  end   
+def if/else == gets.strip
+  ||"not taken"
    
     board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
     index = 0
